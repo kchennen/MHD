@@ -1,0 +1,40 @@
+---
+title: "Middle Homology Domain (MHD) as a fungal specific fold confirmed by the exploration of the known protein universe"
+subtitle: "Bioinfo protocol notebook"
+author: 
+  - name: Kirsley CHENNEN
+    orcid: 0000-0002-0760-5497
+    email: kchennen@unistra.fr
+    roles:
+      - Bioinformatics development
+      - Visualization
+    affiliations:
+      - CSTB - ICube CNRS UMR 7357
+      - University of Strasbourg
+date-modified: today
+date-format: iso
+format: 
+    html:
+        toc: true
+        toc-title: Contents
+        toc-location: left
+        toc-depth: 3
+        number-sections: true
+        number-depth: 3
+        code-fold: true
+        mermaid:
+          theme: neutral
+jupyter: python3
+abstract: |
+  Abstract text todo ...
+key-points:
+  - point1
+  - point2
+keywords:
+  - Fungi
+  - MHD
+  - Clade-specific
+
+---
+
+# Hello !!

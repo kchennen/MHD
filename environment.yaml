@@ -1,0 +1,21 @@
+name: MHD
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+    - conda-forge::click-log
+    - conda-forge::pyfiglet
+    - conda-forge::termcolor
+    - conda-forge::tqdm
+    - conda-forge::jupyter
+    - conda-forge::jupyterlab
+    - conda-forge::polars[all]
+    - conda-forge::hvplot
+    - conda-forge::pyarrow
+    - conda-forge::quarto
+    - bioconda::foldseek
+#    - pip:
+#        - -e .
+#
