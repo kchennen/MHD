@@ -6,16 +6,29 @@ channels:
   - r
 dependencies:
     - conda-forge::click-log
+    - conda-forge::rich-click
     - conda-forge::pyfiglet
     - conda-forge::termcolor
     - conda-forge::tqdm
     - conda-forge::jupyter
     - conda-forge::jupyterlab
+    - conda-forge::ipykernel
+    - conda-forge::ipywidgets
     - conda-forge::polars[all]
     - conda-forge::hvplot
     - conda-forge::pyarrow
     - conda-forge::quarto
+    - conda-forge::plotly
+    - conda-forge::itables
+    - conda-forge::tabulate
+    - conda-forge::biopython
+    - conda-forge::seaborn
+    - conda-forge::matplotlib
+    - conda-forge::matplotlib-venn
+    - conda-forge::upsetplot
+    - conda-forge::statannotations
+    - conda-forge::python-kaleido
+    - conda-forge::r-reticulate
     - bioconda::foldseek
-#    - pip:
-#        - -e .
-#
+    - pip:
+        - -e .
